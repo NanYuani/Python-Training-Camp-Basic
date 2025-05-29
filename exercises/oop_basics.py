@@ -15,7 +15,7 @@ class Student:
     - __init__: 初始化学生信息
     - print_info: 打印学生信息
     """
-    
+
     def __init__(self, name, age, grade):
         """
         初始化学生对象
@@ -27,9 +27,9 @@ class Student:
         """
         # 请在下方编写代码，完成属性初始化
         # pass
-        self.name = name
-        self.age = age
-        self.grade = grade
+        self.name=name
+        self.age=age
+        self.grade=grade
     def print_info(self):
         """
         打印学生信息
@@ -42,8 +42,7 @@ class Student:
         """
         # 请在下方编写代码，完成打印学生信息的功能
         # pass
-        print(f"姓名：{self.name}, 年龄：{self.age}, 成绩：{self.grade}")
-    
+        print(f"姓名: {self.name}, 年龄: {self.age}, 成绩: {self.grade}")
     def is_passing(self):
         """
         判断学生是否通过考试
@@ -56,10 +55,8 @@ class Student:
         """
         # 请在下方编写代码，完成判断功能
         # pass
-        if (self.grade >= 60):
-            return true
-        else:
-            return false
+        if self.grade>=60:
+            return True
 
 def create_student_example():
     """
@@ -73,6 +70,6 @@ def create_student_example():
     # 调用print_info()方法打印学生信息
     # 返回创建的Student对象
     # pass 
-    student = Student("张三", 18, 85)
+    student=Student("张三",18,85)
     student.print_info()
     return student

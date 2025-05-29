@@ -22,10 +22,9 @@ def get_data_types():
     # 3. 创建一个字符串变量，值为 "Python编程"
     # 4. 创建一个布尔值变量，值为 True
     # 5. 将这些变量作为元组返回
-    # pass 
-    intValue = 42
-    floatValue = 3.14
-    stringValue = 'Python编程"
-    boolValue = True
-    ListValue = (intValue, floatValue, stringValue, boolValue)
-    return ListValue
+    # pass
+    fv=42
+    sv=3.14
+    cv="Python编程"
+    bv=True
+    tv=(fv,sv,cv,bv)

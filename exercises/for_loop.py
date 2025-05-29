@@ -18,8 +18,9 @@ def sum_numbers(n):
     - 从1到n的所有整数之和
     """
     # 请在下方编写代码
-    # pass 
-    count = 0
-    for i in range(1, n):
-        count += i
-    return count
+    # pass
+    sum=0
+    for num in range(1,n):
+        sum+=num
+    else: sum+=n
+    return sum

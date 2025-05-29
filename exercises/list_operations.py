@@ -21,11 +21,12 @@ def student_list_operations(students, operation, *args):
     """
     # 请在下方编写代码
     # pass 
-    if operation == "add":
+    if operation=="add":
         students.append(args[0])
-    elif operation == "remove":
+    elif operation=="remove":
         students.remove(args[0])
     else:
-        students[args[0]] = args[1]
+        index=students.index(args[0])
+        students[index]=args[1]
     return students
-        
+print(student_list_operations(["Alice", "Bob", "Charlie"], "add", "David"))  

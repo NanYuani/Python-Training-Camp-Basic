@@ -21,13 +21,11 @@ def student_dict_operations(students_dict, operation, *args):
     """
     # 请在下方编写代码
     # pass 
-    if operation == "add":
-        name, grade = arg
-        students_dict[name] = arg
-    elif operation == "remove":
-        students_dict.pop[arg[0]]
-    elif operation == "update":
-        students_dict[arg[0]] = arg[1]
-    elif operation == "get":
-        return students_dict.get(arg[0]]
-    return students_dict
+    if operation=="add":
+        students_dict[args[0]]=args[1]
+    elif operation=="remove":
+        del students_dict[args[0]]
+    elif operation=="update":
+        students_dict[args[0]]==args[1]
+    else:
+        target=students_dict.get(args[0])

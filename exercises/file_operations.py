@@ -20,8 +20,8 @@ def read_file(file_path):
     # 请在下方编写代码
     # 使用open()函数打开文件并读取内容
     # pass
-with open(file_path, "r", encoding="utf-8") as f:
-    return f.read()
+    with open(file_path, 'r', encoding='utf-8') as f:
+        return f.read()
 
 def write_file(file_path, content):
     """
@@ -36,8 +36,6 @@ def write_file(file_path, content):
     """
     # 请在下方编写代码
     # 使用with语句和open()函数写入内容到文件
-    # pass 
-    with open(file_path, "w", encoding="utf-8") as f:
-        f.write(content)
-        return true
-    return false
+    # pass
+    with open(file_path, 'w', encoding='utf-8') as f:
+        f.write(content) 

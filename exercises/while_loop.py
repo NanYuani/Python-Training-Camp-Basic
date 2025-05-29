@@ -20,9 +20,9 @@ def find_first_even(numbers):
     """
     # 请在下方编写代码
     # pass 
-    i = 0
-    while i < len(numbers):
-        if numbers[i] % 2 == 0:
+    i=0
+    while i<len(numbers):
+        if numbers[i]%2==0:
             return numbers[i]
-        i += 1
+        i+=1
     return None

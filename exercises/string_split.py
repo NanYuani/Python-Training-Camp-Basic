@@ -49,7 +49,7 @@ def extract_name_and_domain(email):
     """
     # 请在下方编写代码
     # 使用split()方法分割电子邮件地址，返回用户名和域名的元组
-    # pass 
-    str = email.split('@')
-    mail = (str[0], str[1])
-    return mail
+    # pass
+    spstr = email.split('@')
+    target = (spstr[0],spstr[1])
+    return target
