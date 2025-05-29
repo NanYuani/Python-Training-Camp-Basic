@@ -26,11 +26,16 @@ def check_grade(score):
     # pass 
     if score>=90:
         print("优秀")
+        return "优秀"
     elif score>=80:
         print("良好")
+        return "良好"
     elif score>=70:
         print("中等")
+        return "中等"
     elif score>=60:
         print("及格")
+        return "及格"
     else:
         print("不及格")
+        return "不及格"

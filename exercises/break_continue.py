@@ -19,10 +19,9 @@ def skip_multiples_of_three(n):
     """
     # 请在下方编写代码
     # pass 
-    return_list=[]
-    for num in range(1,n):
-        if num%3==0:
+    result = []
+    for i in range(1, n+1):
+        if i % 3 == 0:
             continue
-        else:
-            return_list.append(num)
-    return return_list
+        result.append(i)
+    return result

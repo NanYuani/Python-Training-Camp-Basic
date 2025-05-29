@@ -55,8 +55,7 @@ class Student:
         """
         # 请在下方编写代码，完成判断功能
         # pass
-        if self.grade>=60:
-            return True
+        return self.grade >= 60
 
 def create_student_example():
     """

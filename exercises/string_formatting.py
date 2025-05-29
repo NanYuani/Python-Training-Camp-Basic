@@ -20,5 +20,6 @@ def format_student_info(name, age):
     """
     # 请在下方编写代码
     # pass 
-    print(f"姓名：{name}，年龄：{age}")
+    student_info = f"姓名: {name},年龄: {age}"
+    return student_info
     

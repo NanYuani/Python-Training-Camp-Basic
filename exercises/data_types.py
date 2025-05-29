@@ -28,3 +28,4 @@ def get_data_types():
     cv="Python编程"
     bv=True
     tv=(fv,sv,cv,bv)
+    return tv
